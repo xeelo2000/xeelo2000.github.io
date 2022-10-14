@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    background-color: black;
+  }
+
+  h1{
+    margin-top: 10px;
+    margin-bottom: 10px;;
+  }
+
+  header a{
+    text-decoration: none;
+    list-style-type: none;
+    display: block;
+    color: black;
+  }
+  
+  #wrapper {
+    width: 80%;
+    margin: 0 auto; 
+    
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
+    background-color: pink;
+    color: black;
+    text-align: center;
+    top: 0; 
+  }
+  
+  nav, header{
+    position: sticky;
+    top: 0;
+  
+    z-index: 6;
+  }
+
+  nav ul, footer ul{
+    list-style-type: none;
+    
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav > ul{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  nav li{
+    flex: 1;
+    position: relative;
+    
+  }
+
+  .title-nav{
+    border-bottom: 5px solid pink;
+  }
+  
+  nav a{
+    font-weight: bold;
+    color: pink;
+    background-color: black;
+  
+   
+    text-decoration: none;
+    list-style-type: none;
+    display: block;
+    padding: 10px;
+  }
+  
+  nav a:hover, footer a:hover {
+    background-color: white;
+  }
+  
+  
+  
+  .sub-links {
+    position: absolute;
+    left: 0;
+    right: 0;
+  
+    display: none;
+  }
+  
+  nav li:hover .sub-links {
+    display: block;
+  }
+
+  footer > ul
+  {
+    display: flex;
+    align-items: flex-start;
+    
+  }
+
+  footer{
+    width: 80%;
+    margin: 0 auto;
+    background-color: pink;
+    border-top: 10px solid pink;
+    font-family: 'Varela Round', sans-serif;
+  }
+
+  footer a, footer #disclaimer{ 
+    font-weight: bold;
+    color: black;
+    background-color: pink; 
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    display: block; 
+    padding: 10px;
+    margin-right: 10px;
+  }
+
+  footer #disclaimer{
+    padding-top: 0;
+  }
+
+  
+
+
+  
+
